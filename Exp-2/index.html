@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cascading Style Sheets</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+            margin: 20px;
+        }
+            button {
+            background-color: #ff0000;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Implementing Style Sheets</h1>
+    <h2 style="color: red; font-size: 24px; text-align: center;">Types of Cascading Style Sheets</h2>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+            background-color: #000000;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            border-radius: 5px;
+        }
+        .box {
+            width: 200px;
+            height: 80px;
+            background-color: #ff0000;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+            .box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+            .box h3 {
+            color: #000000;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+    <div class="container">
+        <div class="box">
+            <a href="https://www.javatpoint.com/internal-css">
+                <h3>Internal CSS</h3></a>
+        </div>
+        <div class="box">
+            <a href="https://www.javatpoint.com/external-css">
+                <h3>External CSS</h3></a>
+        </div>
+        <div class="box"> 
+            <a href="https://www.javatpoint.com/inline-css">
+                <h3>Inline CSS</h3></a>
+        </div>
+    </div>
+</body>
+</html>
