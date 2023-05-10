@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rule.css"?>
+<student>
+<s>
+<name> Vishal Ponn Rangan </name>
+<branch> AIandDS</branch>
+<age>20</age>
+<city> Chennai </city>
+</s>
+<s>
+<name> Yuvan Shankar </name>
+<branch> ECE</branch>
+<age> 20</age>
+<city> Chennai </city>
+</s>
+<s>
+<name> Shankar</name>
+<branch> CSE</branch>
+<age> 19</age>
+<city> Chennai</city>
+</s>
+<s>
+<name> Chandru</name>
+<branch> NS</branch>
+<age> 19</age>
+<city> Delhi</city>
+</s>
+<s>
+<name> Santhosh</name>
+<branch> IT</branch>
+<age> 20</age>
+<city> Pondy</city>
+</s>
+</student>
+

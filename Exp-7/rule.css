@@ -1,0 +1,28 @@
+student {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  s {
+    display: table-row;
+  }
+  
+  s:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  s:hover {
+    background-color: #ddd;
+  }
+  
+  name, branch, age, city {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  name {
+    font-weight: bold;
+  }
+  

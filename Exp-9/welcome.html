@@ -1,0 +1,29 @@
+<html>
+<center>
+<head>
+<script type="text/javascript">
+function loadXMLDoc()
+{
+if (window.XMLHttpRequest)
+xmlhttp=new XMLHttpRequest();
+else
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+xmlhttp.onreadystatechange=function()
+{
+if (xmlhttp.readyState==4 &&xmlhttp.status==200)
+{
+document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+}
+}
+xmlhttp.open("GET","welcome.txt",true);
+xmlhttp.send();
+}
+</script>
+<title>ajax program</title>
+</head>
+<body>
+<div id="myDiv"><h2>Welcome to AJAX</h2></div>
+<button type="button" onclick="loadXMLDoc()">Change Content</button>
+</body>
+</center>
+</html>
